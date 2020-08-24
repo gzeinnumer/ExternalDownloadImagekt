@@ -21,8 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         //pilih 1 atau 2
         //1. jika isNew true maka file lama akan dihapus dan diganti dengan yang baru
-        FunctionGlobalFile.initFileImage(imgUrl, "file name", img, false)
+        FunctionGlobalFile.initFileImage(imgUrl, "file name.jpg", img, false)
         //2. jika isNew false maka akan otomatis load file dan disimpan, tapi jika file tidak ada, maka akan diload baru dan disimpan
-        FunctionGlobalFile.initFileImage(imgUrl, "file name", img, false)
+        FunctionGlobalFile.initFileImage(imgUrl, "file name.jpg", img, false)
     }
 }
